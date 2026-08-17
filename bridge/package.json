@@ -1,0 +1,18 @@
+{
+  "name": "minecraft-bot-bridge",
+  "version": "1.0.0",
+  "description": "Bridge minimo Node.js/mineflayer usado por el controlador Python de bots de Minecraft. Toda la logica de alto nivel vive en Python; este bridge solo habla el protocolo de Minecraft.",
+  "main": "bridge.js",
+  "private": true,
+  "scripts": {
+    "start": "node bridge.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.20.1",
+    "vec3": "^0.1.8",
+    "ws": "^8.17.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
